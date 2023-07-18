@@ -8,4 +8,5 @@ class Foo:
         return '__metodo_private'
 
 a = Foo()
+
 # print(a.__metodo_private()) # Não é possível acessar desta forma.
